@@ -1,119 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mubarak Ali Piracha | Developer</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mubarak Ali Piracha</title>
+
+  <!-- Keeping styles minimal so content stays the focus -->
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-    <header class="hero">
-        <div class="container">
-            <h1>Hi, I'm <span class="highlight">Mubarak Ali Piracha</span>.</h1>
-            <p class="subtitle">Math & CS Student at UWaterloo | 1A Honours Mathematics Co-op</p>
-            
-            <div class="buttons">
-                <a href="resume.pdf" class="btn primary-btn" target="_blank">
-                    <i class="fa-solid fa-file-pdf"></i> Download Resume
-                </a>
-                <a href="mailto:mpiracha@uwaterloo.ca" class="btn secondary-btn">
-                    <i class="fa-solid fa-envelope"></i> Contact Me
-                </a>
-            </div>
+  <main class="container">
 
-            <div class="socials">
-                <a href="https://github.com/MubarakAliPiracha" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/mubarak-ali-paracha-063a58384/" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://www.instagram.com/mpsdailyday/" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
-            </div>
-        </div>
-    </header>
+    <!-- HERO -->
+    <section class="hero">
+      <h1>Mubarak Ali Piracha</h1>
 
-    <section id="education">
-        <div class="container">
-            <h2><i class="fa-solid fa-graduation-cap"></i> Education</h2>
-            
-            <div class="education-card">
-                <div class="edu-header">
-                    <h3>University of Waterloo</h3>
-                    <span class="date">Sep 2025 – Present</span>
-                </div>
-                <p class="degree">Honours Mathematics Co-op</p>
-                <ul class="achievements">
-                    <li>President’s Scholarship of Distinction</li>
-                    <li>University of Waterloo Entrance Bursary</li>
-                </ul>
-            </div>
+      <p class="hero-subtitle">
+        Honours Mathematics @ University of Waterloo<br>
+        Software Engineering Co-op Candidate
+      </p>
 
-            <div class="education-card">
-                <div class="edu-header">
-                    <h3>Karachi Grammar School</h3>
-                    <span class="date">Graduated Aug 2024</span>
-                </div>
-                <p class="degree">GCE Advanced Levels (Physics, Chemistry, Math, CS)</p>
-                <ul class="achievements">
-                    <li>High Achievers Award (Cambridge Assessment)</li>
-                    <li>Winner – Computer Science Module, KGSO</li>
-                </ul>
-            </div>
-        </div>
+      <p class="hero-desc">
+        I enjoy building practical software and learning how backend systems actually work.
+        Lately, I’ve been focusing on TypeScript, Python, APIs, and writing clearer, more
+        structured code.
+      </p>
+
+      <div class="hero-links">
+        <a href="resume.pdf" target="_blank">Resume</a>
+        <a href="https://github.com/MubarakAliPiracha" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/mubarak-ali-paracha-063a58384/" target="_blank">LinkedIn</a>
+      </div>
     </section>
 
-    <section id="projects">
-        <div class="container">
-            <h2><i class="fa-solid fa-code"></i> Featured Projects</h2>
-            <div class="project-grid">
-                
-                <div class="card">
-                    <div class="card-header">
-                        <h3>🌦️ Weather Dashboard</h3>
-                        <a href="https://github.com/MubarakAliPiracha/weather-dashboard-cli" target="_blank"><i class="fa-brands fa-github"></i></a>
-                    </div>
-                    <p>A Python CLI tool that fetches real-time data using the OpenWeatherMap API. Implements JSON parsing and error handling for robust user input.</p>
-                    <div class="tags">
-                        <span>Python</span>
-                        <span>APIs</span>
-                        <span>JSON</span>
-                    </div>
-                </div>
+    <!-- PROJECTS -->
+    <section>
+      <h2>Projects</h2>
 
-                <div class="card">
-                    <div class="card-header">
-                        <h3>💰 Expense Tracker</h3>
-                        <a href="https://github.com/MubarakAliPiracha/automated-expense-tracker" target="_blank"><i class="fa-brands fa-github"></i></a>
-                    </div>
-                    <p>An automated finance script using Pandas for data analysis. Saves transactions to persistent CSV files and generates spending summaries.</p>
-                    <div class="tags">
-                        <span>Python</span>
-                        <span>Pandas</span>
-                        <span>Data Science</span>
-                    </div>
-                </div>
+      <!-- In-progress note adds authenticity -->
+      <p class="muted-note">
+        Currently building a backend-focused internship application tracker to better
+        understand REST APIs, authentication, and database design.
+      </p>
 
-                <div class="card">
-                    <div class="card-header">
-                        <h3>🌐 Personal Portfolio</h3>
-                        <a href="https://github.com/MubarakAliPiracha/portfolio" target="_blank"><i class="fa-brands fa-github"></i></a>
-                    </div>
-                    <p>The responsive website you are looking at right now. Built with modern HTML5, CSS Flexbox, and hosted on GitHub Pages.</p>
-                    <div class="tags">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>Flexbox</span>
-                    </div>
-                </div>
+      <div class="project">
+        <h3>Internship Application Tracker (In Progress)</h3>
+        <p>
+          A backend-oriented web application for tracking internship applications,
+          statuses, and notes. The focus is on clean API design and maintainable backend logic.
+        </p>
+        <p class="tech">TypeScript · Node.js · PostgreSQL</p>
+      </div>
 
-            </div>
-        </div>
+      <div class="project">
+        <h3>Weather Dashboard CLI</h3>
+        <p>
+          Command-line tool that fetches real-time weather data using a public API,
+          with input validation and basic error handling.
+        </p>
+        <p class="tech">Python · APIs</p>
+        <a href="https://github.com/MubarakAliPiracha/weather-dashboard-cli" target="_blank">
+          View on GitHub →
+        </a>
+      </div>
+
+      <div class="project">
+        <h3>Automated Expense Tracker</h3>
+        <p>
+          Python script that tracks daily expenses and generates monthly summaries
+          using CSV storage and Pandas for analysis.
+        </p>
+        <p class="tech">Python · Pandas</p>
+        <a href="https://github.com/MubarakAliPiracha/automated-expense-tracker" target="_blank">
+          View on GitHub →
+        </a>
+      </div>
+
     </section>
 
+    <!-- EDUCATION -->
+    <section>
+      <h2>Education</h2>
+      <p>
+        <strong>University of Waterloo</strong><br>
+        Honours Mathematics (Co-op)<br>
+        President’s Scholarship of Distinction
+      </p>
+    </section>
+
+    <!-- FOOTER -->
     <footer>
-        <p>© 2025 Mubarak Ali Piracha. Built with code, not builders.</p>
+      <p>
+        mpiracha@uwaterloo.ca ·
+        <a href="https://github.com/MubarakAliPiracha">GitHub</a> ·
+        <a href="https://www.linkedin.com/in/mubarak-ali-paracha-063a58384/">LinkedIn</a>
+      </p>
     </footer>
 
-</body>
+  </main>
 
+  <!-- Kept this site intentionally simple to focus on content -->
+
+</body>
 </html>
+
